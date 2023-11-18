@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+}
+
+.cv-document {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: sans-serif, tahoma;
+	font-size: 13px;
+}
+
+.cv-page {
+    outline: 0;
+    line-height: 1.4;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+h1 {
+    color: #0e2452;
+}
+#info {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.st1 {
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sc1 {
+    font-size: 13px;   
+    display: grid;
+    grid-template-rows: repeat(6, 30px);
+    grid-template-columns: repeat(2, 100px);
+    align-items: center;
+    justify-items: left;
+    grid-column-gap: 3px;
+    }
+.dong_1 {
+    font-weight: bold;
+}
+.img1 {
+display:block;
+position: absolute;
+top: 20px;
+right: 20px;
+max-width: 150px;
+max-height: 150px;
+}
+
+.sc2 {
+    text-align: justify;
+}
+#target {
+    margin-bottom: 40px;
+}
+.section-title {
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    margin-top: 0px;
+    
+}
+#education {
+    margin-bottom: 40px
+}
+.sc3 {
+    font-size: 13px;     
+    }
+
+.containersc3 {
+    font-size: 13px;
+    padding: 15px 15px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: left;
+    grid-column-gap: 3px;
+    border-bottom: 1px solid rgb(233, 231, 231);
+}
+
+.st4 {
+    margin-top: 40px;
+}
+
+.st5, .st6, .st7, .st8, .st9, .st10  {
+    margin-top: 40px;
+}
+.containersc4 {
+    text-transform:capitalize;
+    text-align: center;
+}
+
+.gt {
+    padding-top: 0px;
+
+}
+.ul1 {
+    margin: 0px auto 0px auto;
+}
+.cv1 {
+    margin-bottom: 0px;
+}
+.cv2 {
+    margin-bottom: 10px;
+}
+.lh1 {
+list-style-type: decimal;
+}
